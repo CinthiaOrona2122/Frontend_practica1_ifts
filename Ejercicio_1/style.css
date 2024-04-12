@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: "Onest", system-ui, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+body {
+    background: rgb(71, 59, 108);
+    background: linear-gradient(180deg, rgba(71, 59, 108, 1) 0%, rgba(31, 17, 52, 1) 48%) no-repeat;
+    color: #ffffffe6;
+}
+
+.navlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlink,
+a {
+    color: #ffffffe6;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+.navlink,
+a:hover {
+    color: #ffffffe6;
+    color: #f472b6
+}
+
+h1 {
+    font-size: 4em;
+    margin: 2rem 0;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 2.2em;
+    margin: 1rem 0;
+    font-weight: 400;
+    color: #f472b6
+}
+
+p {
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.redes_sociales a {
+    color: #f472b6;
+    font-size: 1.4em;
+    padding: 0.5rem 1.7rem;
+}
+
+.redes_sociales a:hover {
+    color: #f472b6;
+}
+
+.disponibilidad {
+    color: #6bd46b;
+    border: #6bd46b 1px solid;
+    background-color: hwb(120 42% 17% / 0.219);
+    border-radius: 25px 25px;
+    padding: 0.5rem 0.7rem;
+    margin-left: 1rem;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.wrapper {
+    text-align: left;
+    width: 100%;
+    max-width: 80%;
+    padding: 1rem;
+}
+
+div.imagen img {
+    width: 100px;
+}
