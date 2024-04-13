@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="tabla">
+        <table border="1">
+
+            <!-- 1 Cabeceras-->
+            <thead>
+                <tr>
+                    <th>Celda</th>
+                    <th>Celda</th>
+                    <th style="color: red;" colspan="2">Celda</th>
+                    <th>Celda</th>
+                </tr>
+            </thead>
+            <!-- Cuerpo -->
+            <tbody>
+                <!-- Fila 1-->
+                <tr>
+                    <td style="color: green;" rowspan="4">Celda</td>
+                    <td style="color: green;" rowspan="4">Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td style="color: green;" rowspan="4">Celda</td>
+                </tr>
+                <!-- Fila 2-->
+                <tr>
+                    <!-- <td>Celda</td>
+                <td>Celda</td> -->
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <!-- <td>Celda</td> -->
+                </tr>
+                <!-- Fila 3-->
+                <tr>
+                    <!-- <td>Celda</td>
+                <td>Celda</td> -->
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <!-- <td>Celda</td> -->
+                </tr>
+                <!-- Fila 4-->
+                <tr>
+                    <!-- <td>Celda</td>
+                <td>Celda</td> -->
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <!-- <td>Celda</td> -->
+                </tr>
+                <!-- Fila 5-->
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td style="color: yellow;" colspan="2">Celda</td>
+                    <td>Celda</td>
+                    <!-- <td>Celda</td> -->
+                </tr>
+                <!-- Fila 6-->
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td style="color: yellow;" colspan="2">Celda</td>
+                    <td>Celda</td>
+                    <!-- <td>Celda</td> -->
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+
+    <section id="formulario">
+        <form  id="miFormulario">
+            <fieldset>
+                <legend class="datos_personales">Datos Personales</legend>
+                <div class="input_wrapper">
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="input_wrapper">
+                    <label for="apellido"></label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                </div>
+                <div class="input_wrapper">
+                    <label for="edad"></label>
+                    <input type="number" name="edad" id="edad" placeholder="Edad" required>
+                </div>
+                <div class="input_wrapper">
+                    <label for="sexo">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos Universidad</legend>
+                <div class="input_wrapper">
+                    <label for="sede">Sede:</label>
+                    <select name="sede" id="sede">
+                        <option value="GBA Norte">GBA Norte</option>
+                        <option value="GBA Sur">GBA Sur</option>
+                        <option value="CABA">CABA</option>
+                    </select>
+                </div>
+                <div class="input_wrapper">
+                    <label for="horario">Horario:</label>
+                    <select name="horario" id="horario">
+                        <option value="mañana">Mañana</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noche">Noche</option>
+                    </select>
+                </div>
+                <div class="input_wrapper">
+                    <label for="materia">Materia:</label>
+                    <select name="materia" id="materia">
+                        <option value="Administración de Bases de datos">Administración de Bases de datos</option>
+                        <option value="Elementos de Análisis Matemático">Elementos de Análisis Matemático</option>
+                        <option value="Lógica Computacional">Lógica Computacional</option>
+                        <option value="Técnicas de Programación">Técnicas de Programación</option>
+                    </select>
+                </div>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+<script src="./script/script.js"></script>
+</html>
